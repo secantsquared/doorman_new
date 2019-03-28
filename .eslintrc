@@ -12,13 +12,7 @@
     },
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "html",
-    "import",
-    "prettier",
-    "jsx-a11y"
-  ],
+  "plugins": ["react", "html", "import", "prettier", "jsx-a11y"],
   "rules": {
     "react/prop-types": 0,
     "react/jsx-uses-vars": [2],
