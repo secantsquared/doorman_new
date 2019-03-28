@@ -1,8 +1,9 @@
-import { Grommet, Box, Button } from 'grommet'
-import { Github } from 'grommet-icons'
+import React from 'react';
+import { Grommet, Box, Button } from 'grommet';
+import { Github } from 'grommet-icons';
 
-import Head from '../components/Head'
-import AppBar from '../components/AppBar'
+import Head from '../components/Head';
+import AppBar from '../components/AppBar';
 
 const theme = {
   global: {
@@ -12,7 +13,7 @@ const theme = {
       height: '20px'
     }
   }
-}
+};
 
 const Home = () => (
   <Grommet theme={theme} full>
@@ -27,6 +28,6 @@ const Home = () => (
       />
     </Box>
   </Grommet>
-)
+);
 
-export default Home
+export default Home;

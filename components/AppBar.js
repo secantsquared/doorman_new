@@ -1,5 +1,6 @@
-import { Box, Heading, Button } from 'grommet'
-import { Login } from 'grommet-icons'
+import React from 'react';
+import { Box, Heading, Button } from 'grommet';
+import { Login } from 'grommet-icons';
 
 const AppBar = () => (
   <Box
@@ -17,6 +18,6 @@ const AppBar = () => (
     </Heading>
     <Button icon={<Login />} label="Login" color="inherit" path="/login" />
   </Box>
-)
+);
 
-export default AppBar
+export default AppBar;
