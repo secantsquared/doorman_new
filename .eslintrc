@@ -12,7 +12,7 @@
     },
     "sourceType": "module"
   },
-  "plugins": ["react", "react-app"],
+  "plugins": ["react-app"],
   "rules": {
     "react/prop-types": 0,
     "react/jsx-uses-vars": [2],

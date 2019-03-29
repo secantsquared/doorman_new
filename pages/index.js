@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
-import { Grommet, Box } from 'grommet';
+import React, { useEffect, useState } from 'react';
+import { Grommet, Box, Button } from 'grommet';
 import Head from '../components/Head';
 import AppBar from '../components/AppBar';
-import Button from '../components/Button';
+import Router from 'next/router';
 
 const theme = {
   global: {
@@ -15,14 +15,16 @@ const theme = {
   }
 };
 
-const Home = () => (
-  <Grommet theme={theme} full>
-    <Head title="Home" />
-    <AppBar />
-    <Box fill justify="center" align="center">
-      <Button />
-    </Box>
-  </Grommet>
-);
+const Home = () => {
+  return (
+    <Grommet theme={theme} full>
+      <Head title="Home" />
+      <AppBar />
+      <Box fill justify="center" align="center">
+        <Button onClick={handler} />
+      </Box>
+    </Grommet>
+  );
+};
 
 export default Home;
